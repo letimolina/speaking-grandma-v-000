@@ -14,7 +14,7 @@
 
 
 def speak_to_grandma(phrase)
-  if phrase =~ /[A-Z]/
+  if phrase !=~ /[A-Z]/
     "HUH?! SPEAK UP, SONNY!"
   elsif phrase = "I LOVE YOU GRANDMA!"
     "I LOVE YOU TOO PUMPKIN!"
